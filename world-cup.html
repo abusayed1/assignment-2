@@ -108,10 +108,11 @@
             background-color: black;
             color: lightcyan;
             height: 200px;
-            width:calc(1);
+            width:100vw;
            }
            footer section{
             margin: 40px;
+            height: 100%;
             
            }
        .footer-meanu ul{
@@ -119,8 +120,13 @@
             justify-content: space-between;
             list-style: none;
            }
+           #social-media{
+            visibility: hidden;
+           }
 
           /* --------create webpage responsive using media quary------- */
+
+          /* -----for mobile---- */
            @media screen and (max-width:576px) {
            .live{
             grid-template-columns:repeat(1, 1fr);
@@ -138,7 +144,12 @@
            .footer-meanu ul{
             flex-direction: column;
            }
+           #social-media{
+            visibility:visible;
+           }
         }
+
+        /*----- for tablet----- */
            @media screen and (min-width: 577px) and (max-width:992px){
             .live{
                 grid-template-columns: repeat(2,1fr);
@@ -186,11 +197,11 @@
                         </p>
                     </div>
                     <div>
-                        <button>Watch Live <i class="fa-light fa-angle-right"></i></button>
+                        <button>Watch Live <i class="fa-solid fa-angle-right"></i></button>
                     </div>
                 </div>
                 <div class="banner-img">
-                    <img src="/Banner-Image.png" alt="">
+                    <img src="Banner-Image.png" alt="">
                 </div>
             </div>
         </section>
@@ -198,7 +209,7 @@
         <section class="main-view">
             <aside>
                 <div>
-                   <button > <a href="/upcoming-match.html">Upcoming Match</a> </button>
+                   <button > <a href="upcoming-match.html">Upcoming Match</a> </button>
                </div>
                <div>
                    <button>All Group</button>
@@ -210,68 +221,69 @@
         <main>  
         <div class="live">
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
             <div>
-                <img src="/Blog-Image.png" alt=""> 
+                <img src="Blog-Image.png" alt=""> 
                 <button>Transfer</button>
                 <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
-                <h3> <span><i class="fa-thin fa-clock"></i></span>6h
-                <span><i class="fa-thin fa-message"></i>200</span></h3>
+                <h3> <span><i class="fa-solid fa-clock"></i>6h</span>
+                <span><i class="fa-solid fa-message"></i></i>200</span></h3>
             </div>
+            
     
         </div>
         <div id="all">
@@ -294,8 +306,13 @@
               <li>Privecy Settings</li>
               <li>Goal App</li>
               <li>Goal Live</li>
-          </ul>
+              <li id="#social-media"><i class="fa-brands fa-facebook"><a href="https://web.facebook.com/"></a></i></li>
+              <li id="#social-media"><i class="fa-brands fa-instagram-square"><a href="https://www.instagram.com/accounts/login/"></a></i></li>
+              <li id="#social-media"><i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/login"></a></i></li> 
+          </ul> 
         </div>
+        </div>
+            
         </section>
 </footer>
 </html>
