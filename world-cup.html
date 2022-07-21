@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World cup 2022 matchs</title>
+    <script src="https://kit.fontawesome.com/38affa7539.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            align-items: center;
+            margin: 50px;
+        }
+           .container{
+            background-color: black;
+            display: flex;
+            border-radius: 10px;
+            margin-bottom: 5em;
+           }
+           .banner-img img{
+            width:100%
+           }
+           .banner-text{
+            color: aliceblue;
+            width: 50%;
+           }
+           .banner-text div{
+            margin: 3em 0 5em 5em;
+           }
+           .banner-text div button{
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+           }
+           .main-view{
+            display: flex;
+            justify-content: left;
+           }
+           aside{
+            width: 40%;
+            height: 11em;
+            background-color: black;
+            margin-right: 10px;
+            border-radius: 10px;
+           }
+           aside div{
+                   margin: 5px;
+                   text-align: center;
+                   width: 90%;
+           }
+           aside div button{
+            border-radius: 7px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+           }
+           #blog{
+                background-color: brown;
+           }
+           .live{
+            width: 60%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+           }
+           .live div{
+            border: 1px solid lightcyan;
+            border-radius: 5px;
+            margin: 0 0 10px 10px;
+           }
+           .live div h3 span{
+            margin-left: 5em;
+           }
+           #all{
+            background-color: brown;
+            border-radius: 5px;
+            display:none;
+           }
+           footer{
+            text-align: center;
+            background-color: black;
+            color: lightcyan;
+            height: 200px;
+            width: 100%;
+           }
+           footer section{
+            margin: 40px;
+            
+           }
+       .footer-meanu ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+           }
+           @media screen and (max-width:576px) {
+           .live{
+            grid-template-columns:repeat(1, 1fr);
+           } 
+           .container{
+            flex-direction: column;
+           }
+           .main-view{
+            flex-direction: column;
+           }
+           aside{
+            background-color: white;
+            text-align: center;
+           }
+           .footer-meanu ul{
+            flex-direction: column;
+           }
+        }
+           @media screen and (min-width: 580px) and (max-width:992){
+            .live{
+                grid-template-columns: repeat(2,1fr);
+            } 
+            aside{
+                display: flex;
+                background-color: white;
+            }  
+            aside div{
+                justify-content: center;
+            }
+            } 
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <div class="banner-text">
+                    <div>
+                        <h1>The Greatest <br>
+                            show on the <br>
+                            earth</h1>
+                        <p>
+                            World Cup football is one the most <br>
+                            exciting event around the world.
+                            let's <br> enjoy the great show of earth.
+                        </p>
+                    </div>
+                    <div>
+                        <button>Watch Live <i class="fa-light fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="banner-img">
+                    <img src="/Banner-Image.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+        <section class="main-view">
+            <aside>
+                <div>
+                   <button>Upcoming Match</button>
+               </div>
+               <div>
+                   <button>All Group</button>
+               </div>
+              <div>
+                   <button id="blog">Blog</button>
+              </div>
+            </aside>
+        <main>  
+        <div class="live">
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+            <div>
+                <img src="/Blog-Image.png" alt=""> 
+                <button>Transfer</button>
+                <p>Transfer Live: Liverpool talk over Mo salah transfer</p>
+                <h3><span><i class="fa-light fa-clock"></i> 6h</span>
+                <span><i class="fa-thin fa-message">200</i></span></h3>
+            </div>
+    </main>
+    </section>
+</body>
+<footer>
+       <section>
+        <div>
+            <h1>Goal</h1>
+        </div>
+       <hr>
+        <div class="footer-meanu">
+          <ul>
+              <li>Contact Us</li>
+              <li>Terms Of Service</li>
+              <li>Privecy Policy</li>
+              <li>Privecy Settings</li>
+              <li>Goal App</li>
+              <li>Goal Live</li>
+          </ul>
+        </div>
+        </section>
+</footer>
+</html>
